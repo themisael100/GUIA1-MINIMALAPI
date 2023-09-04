@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tNeHBJMGhlNC8+lu+6pUj83bI/EKGS3pz2v3I/GbGo5+rE/+nmH089lAoL09tIttnuEfYZ6B1CWX3SFseblHJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\themi\\OneDrive\\Escritorio\\Guia uno\\BMSR20230904Productos\\BMSR20230904Productos\\BMSR20230904Productos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\themi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\themi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\themi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\themi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\themi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\themi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
