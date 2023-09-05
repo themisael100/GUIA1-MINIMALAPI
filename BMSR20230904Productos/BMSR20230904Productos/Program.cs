@@ -29,7 +29,7 @@ app.MapGet("/productos", () =>
 app.MapGet("/productos/{id}", (int id) =>
 {
     //Busca un producto en la lista que tenga el ID especificado
-    var producto = productos.FirstOrDefault(c => c.Id == id);
+    var producto = productos.FirstOrDefault(p => p.Id == id);
     return producto;//Devuelve el producto encotrado (o null si no se encuentra)
 });
 
@@ -48,7 +48,7 @@ app.MapPost("/productos", (Productos producto) =>
 app.MapPut("/productos/{id}", (int id, Productos producto) =>
 {
     //Busca un producto en la lista que tenga el ID especificado
-    var existingProducto = productos.FirstOrDefault(c => c.Id == id);
+    var existingProducto = productos.FirstOrDefault(p => p.Id == id);
     if (existingProducto != null)
     {
         //Busca un producto en la lista que tenga el ID especificado
@@ -68,7 +68,7 @@ app.MapPut("/productos/{id}", (int id, Productos producto) =>
 app.MapDelete("/productos/{id}", (int id) =>
 {
     //BUsca un producto en la lista que que tenga el ID especificado
-    var existingProducto = productos.FirstOrDefault(c => c.Id == id);
+    var existingProducto = productos.FirstOrDefault(p => p.Id == id);
     if (existingProducto != null)
     {
         //Elimina el producto de la lista

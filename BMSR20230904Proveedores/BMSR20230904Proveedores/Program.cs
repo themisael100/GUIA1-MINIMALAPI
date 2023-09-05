@@ -36,7 +36,7 @@ app.MapPost("/proveedores", (Proveedores proveedor) =>
 app.MapDelete("/proveedores/{id}", (int id) =>
 {
     //Busca un proveedor en la lista que que tenga el ID especificado
-    var existingProveedores = proveedores.FirstOrDefault(c => c.Id == id);
+    var existingProveedores = proveedores.FirstOrDefault(p => p.Id == id);
     if (existingProveedores != null)
     {
         //Elimina el proveedor de la lista
