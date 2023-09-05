@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Herna\\OneDrive\\Escritorio\\GUIA1-MINIMALAPI\\BMSR20230904Marcas\\BMSR20230904Marcas\\BMSR20230904Marcas.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Herna\\OneDrive\\Escritorio\\GUIA1-MINIMALAPI\\BMSR20230904Marcas\\BMSR20230904Marcas\\BMSR20230904Marcas.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Herna\\OneDrive\\Escritorio\\GUIA1-MINIMALAPI\\BMSR20230904Marcas\\BMSR20230904Marcas\\BMSR20230904Marcas.csproj",
+        "projectName": "BMSR20230904Marcas",
+        "projectPath": "C:\\Users\\Herna\\OneDrive\\Escritorio\\GUIA1-MINIMALAPI\\BMSR20230904Marcas\\BMSR20230904Marcas\\BMSR20230904Marcas.csproj",
+        "packagesPath": "C:\\Users\\Herna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Herna\\OneDrive\\Escritorio\\GUIA1-MINIMALAPI\\BMSR20230904Marcas\\BMSR20230904Marcas\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Herna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
